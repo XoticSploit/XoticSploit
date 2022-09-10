@@ -73,7 +73,7 @@ body > section,
 	padding: 70px 0;
 }
 
-.sec-title {}
+
 
 .sec-title h2 {
   color: #0eb493;
@@ -273,7 +273,7 @@ top: -8px;
 ==========================================*/
 
 .features {
-  background-color: #f4f7f9;
+  background-color: #ffffff;
 }
 
 .owl-controls {
@@ -497,7 +497,6 @@ top: -8px;
 ==========================================*/
 
 #facts {
-	background-image: url("../img/parallax/city.jpg");
 	background-color: rgba(6,32,51,.8);
 	background-attachment: fixed !important;
 	background-position: center center;
@@ -569,7 +568,7 @@ top: -8px;
   line-height: 24px;
 }
 
-.contact-form {}
+
 
 .contact-form h3 {
   color: #062033;
@@ -693,8 +692,6 @@ label.error {
   line-height: 24px;
 }
 
-.footer-single ul {
-  }
 
 .footer-single li {
   line-height: 32px;
