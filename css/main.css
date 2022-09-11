@@ -172,8 +172,21 @@ body > section,
 	color: #fff;
 }
 
+/*=========================================
+	Download Button
+==========================================*/
+.download-btn{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius:5px;
+}
 
-
+.download-btn:hover {
+  background-color: rgb(14, 168, 22);
+}
 
 /*=========================================
 	Slider
