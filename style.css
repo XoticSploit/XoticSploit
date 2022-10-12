@@ -237,12 +237,13 @@ svg {
 --------------------------------------------------------------*/
 
 .ui-component-button {
-  border: .0625rem solid var(--ui-color-brand);
+  
   border-radius: var(--ui-radius-button);
-  display: block;
+  display: contents;
   font-weight: 700;
   line-height: 1;
   text-align: center;
+  background-color: gray;
 }
 
 .ui-component-button-primary {
@@ -277,10 +278,15 @@ svg {
   background-size: 1.125rem;
   list-style: none;
   padding-left: 1.875rem;
+  text-align: left;
 }
 
 .ui-component-list--item-check {
   background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/check.svg);
+}
+.ui-component-list--item-cross {
+  background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/cross.svg);
+  
 }
 
 /*--------------------------------------------------------------
@@ -389,12 +395,70 @@ svg {
 
 /*--------------------------------------------------------------
 |
+| 7.6 PRICING
+|
+--------------------------------------------------------------*/
+
+.ui-section-pricing {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.ui-section-pricing__layout {
+  justify-content: initial;
+  margin-top: var(--ui-gap-pricing);
+  row-gap: var(--ui-gap-card);
+}
+
+/* CARD */
+
+.ui-component-card--pricing {
+  padding: 1.5rem 1.5rem 1.75rem;
+  text-align: left;
+  background-color: #b1aaaa;
+  border-radius: 28px;
+  text-align: center;
+}
+.ui-section-pricing-text {
+  color: #e9e8e8;
+}
+
+.ui-section-pricing-text1 {
+  color:#353535;
+}
+
+.ui-component-card--pricing-price {
+  line-height: 1;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.ui-component-card--pricing-amount {
+  font-size: var(--ui-typography-h1);
+  font-weight: 700;
+}
+
+/* AMOUNT */
+
+.ui-component-card--pricing-amount-1::before { content: "$N/A"; }
+
+/* LIST */
+
+.ui-component-list--pricing {
+  margin-bottom: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+/*--------------------------------------------------------------
+|
 | 7.6 CLOSE
 |
 --------------------------------------------------------------*/
 
 .ui-section-close {
-  background-color: var(--ui-color-background-secondary);
+  
   padding-top: 5rem;
   text-align: center;
 }
