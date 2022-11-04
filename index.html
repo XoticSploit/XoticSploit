@@ -136,34 +136,45 @@ s0.parentNode.insertBefore(s1,s0);
           </div>
         </div>
       </section>
-      <section class="ui-section-pricing">
-        <div class="ui-layout-container">
-          <h1><b class="ui-section-pricing-text1" >Coming Soon!</b></h1>
-          <h2 class="ui-section-pricing-text">Premium</h2>
-          <p class="ui-text-intro ui-section-pricing-text">Want to enjoy premium? Check out our prices!</p>
-          
+     
+      <section>
+        <div align=center id="xsolla-buy-button-widget"></div>
+        <script>
+            var options = {
+                project_id: "204478",
+                sku: "010000",
+                item_type: "unit",
+                api_settings: {
+                    sandbox: true,
+                },
+                widget_ui: {
+                    target_element: "#xsolla-buy-button-widget",
+                    theme: {
+                        foreground: "green",
+                        background: "gray"
+                    },
+                },
+                payment_widget_ui: {
+                    lightbox: {
+                        height: '700px',
+                        spinner: 'round'
+                    }
+              }
+            };
+            var s = document.createElement('script');
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://cdn.xsolla.net/embed/buy-button/3.1.7/widget.min.js";
+            s.addEventListener('load', function (e) {
+                var widgetInstance = XBuyButtonWidget.create(options);
+            }, false);
+            var head = document.getElementsByTagName('head')[0];
+            head.appendChild(s);
+        </script> 
+        </section>
+        
+  <    
   
-          <!-- PRICING -->
-          <div class="ui-section-pricing__layout ui-layout-grid ui-layout-grid-3">
-            <div class="ui-component-card ui-component-card--pricing">
-              <span><strong>Premium</strong></span>
-              <!-- AMOUNT -->
-              <div class="ui-component-card--pricing-price">
-                <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-1"></span>
-               
-              </div>
-              <span><small>Perfect for the people who hate entering keys</small></span>
-              <!-- LIST -->
-              <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Keyless</li>
-                <li class="ui-component-list--item ui-component-list--item-check">VIP Discord Role</li>
-              </ul>
-              <!-- CTA -->
-              <a href="https://buy.stripe.com/eVaeYrgHX9wc8EM288" target="_blank" role="link" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">DO NOT PURCHASE</a>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div class="ui-discord-embed">
         <center><iframe src="https://discord.com/widget?id=939629844117987398&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></center>
