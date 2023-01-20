@@ -18,8 +18,45 @@
     <meta name="revisit-after" content="7 days">
     <meta name="author" content="Xotic">
     <meta property="og:image" content="https://www.linkpicture.com/q/Xotic-Sploit-discord-1.png">
+    <script>
+        function showTOS() {
+            var modal = document.getElementById("tosModal");
+            modal.style.display = "block";
+        }
+        function closeTOS() {
+            var modal = document.getElementById("tosModal");
+            modal.style.display = "none";
+        }
+    </script>
 </head>
-<body>
+<body onload="showTOS()">
+    <body onload="showTOS()">
+        <div id="tosModal" class="modal">
+            <div class="tos-content">
+                <span class="close" onclick="closeTOS()">&times;</span>
+                <h2>Terms of Service</h2>
+                <p>By accessing or using the services provided by Xotic Inc., you agree to be bound by the terms and conditions outlined in this agreement. If you do not agree to these terms, you may not use our services.</p>
+                <p>1. Eligibility. Our services are intended for individuals who are at least 13 years of age. If you are under the age of 13, you may not use our services. By using our services, you represent and warrant that you are at least 13 years old and that you have the legal capacity to enter into this agreement.</p>
+                <p>2. Use of Services. You may use our services only for lawful purposes and in accordance with these terms. You agree not to use our services:
+                <ul>
+                    <li>In any way that violates any applicable federal, state, local, or international law or regulation</li>
+                    <li>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way</li>
+                    <li>To transmit, or procure the sending of, any advertising or promotional material, including any "junk mail," "chain letter," "spam," or any other similar solicitation</li>
+                    <li>To impersonate or attempt to impersonate Xotic Inc., a Xotic Inc. employee, another user, or any other person or entity</li>
+                </ul>
+                </p>
+                <p>3. Termination. We may terminate or suspend your access to our services at any time, without notice, for any reason, including without limitation if we believe that you have breached these terms.</p>
+                <p>4. Changes to Terms. We reserve the right to make changes to these terms at any time. Your continued use of our services after any changes have been made to these terms will be deemed to be your acceptance of such changes.</p>
+                <p>5. Governing Law. These terms and your use of our services shall be governed by and construed in accordance with the laws of the jurisdiction, without giving effect to any principles of conflicts of law.</p>
+                <p>6. Disclaimers. Our services are provided "as is" and "as available" without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. Xotic Inc. makes no warranty that our services will be uninterrupted, timely, secure, or error-free.</p>
+                <p>7. Limitation of Liability. In no event shall Xotic Inc. be liable for any damages whatsoever, including, but not limited to, direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the use or inability to use our services.</p>
+                <p>8. Indemnification. You agree to indemnify and hold Xotic Inc. and its officers, employees, agents, and affiliates harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of your use of our services, your violation of these terms, or your violation of any rights of another.</p>
+                <p>9. Contact Us. If you have any questions or concerns about these terms, please contact us at founder@xoticsploit.com</p>
+                <div style="text-align: center;">
+                <button onclick="closeTOS()">I Agree</button>
+                </div>
+                </div>
+                </div>
     <div id="loading">
         <div id="spinner"></div>
     </div>
