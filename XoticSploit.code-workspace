@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/templatemo_492_app_starter/templatemo_492_app_starter/images"
+		},
+		{
+			"path": "../../../Downloads/templatemo_492_app_starter/templatemo_492_app_starter/js"
+		},
+		{
+			"path": "../../../Downloads/templatemo_492_app_starter/templatemo_492_app_starter/css"
+		},
+		{
+			"path": "../../../Downloads/templatemo_492_app_starter/templatemo_492_app_starter/fonts"
+		}
+	],
+	"settings": {
+		"problems.defaultViewMode": "tree",
+		"problems.showCurrentInStatus": false
+	}
+}
