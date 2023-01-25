@@ -8,30 +8,7 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
 }
-.dark-mode {
-    background-color: black;
-    color: white;
-}
 
-#dark-mode-btn {
-    background-color: rgb(141, 35, 35);
-    -webkit-text-fill-color: white;
-    outline-color:#fff;
-    position:absolute; /* Position the button in a fixed location */
-    bottom: 20px; /* Position the button 20px from the bottom of the website */
-    right: 20px; /* Position the button 20px from the right of the website */
-    border-radius: 50%; /* Make the button round */
-    width: 50px; /* Set the width of the button to 50px */
-    height: 50px; /* Set the height of the button to 50px */
-    z-index: 1;
-    
-}
-#dark-mode-btn:hover {
-    background-color: rgb(255, 0, 0);
-}
-#dark-mode-btn {
-    transition: background-color 0.3s ease-in;
-}
 
 
 #loading {
