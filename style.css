@@ -137,6 +137,21 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+#status-embed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+#status-indicator {
+  padding: 20px;
+}
+
 /*--------------------------------------------------------------
 3.0 TYPOGRAPHY
 --------------------------------------------------------------*/

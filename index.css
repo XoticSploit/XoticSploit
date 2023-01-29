@@ -97,6 +97,18 @@ body,html {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
+
+.tos-button {
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-text-fill-color: rgb(88, 88, 88);
+    border-radius: 10%;
+    
+}
+
+.tos-button:hover {
+    box-shadow: 2px 2px 4px rgba(148, 148, 148, 0.2);
+}
+
 /* Modal Content */
 .tos-content {
     background-color: #1a1a1a;
