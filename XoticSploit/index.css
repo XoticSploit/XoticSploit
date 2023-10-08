@@ -464,34 +464,42 @@ button:focus {
         position: relative;
         max-width: 400px;
         margin: 0 auto;
+        overflow: hidden;
       }
       
       .mySlides {
-        display: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s;
+        position: relative; /* Add position relative to create stacking context */
       }
       
       img {
         width: 100%;
+        height: auto;
+        vertical-align: top;
       }
       
-      /* ... (previous CSS code) */
-
-.prev,
+      .prev,
 .next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: white; /* Set arrow color to white */
+  color: white !important; /* Set arrow color to white and use !important */
+  z-index: 2; /* Set a higher z-index value to keep arrows on top */
 }
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
+      
+      
+      .prev {
+        left: 0;
+      }
+      
+      .next {
+        right: 0;
+      }
+      
 
       
 
