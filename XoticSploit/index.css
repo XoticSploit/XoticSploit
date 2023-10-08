@@ -460,4 +460,39 @@ button:focus {
     #navigation a {
         color:#000;
     }
+    .slideshow-container {
+        position: relative;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      .mySlides {
+        display: none;
+      }
+      
+      img {
+        width: 100%;
+      }
+      
+      /* ... (previous CSS code) */
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white; /* Set arrow color to white */
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+      
+
 }
